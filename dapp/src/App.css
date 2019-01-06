@@ -1,0 +1,79 @@
+#home-header {
+	background-color: #008080;
+	position: fixed;
+	width: 1284px;
+}
+
+#home-body {
+	text-align: center;
+	margin-top: 70px;
+}
+
+.abc{
+	padding-left:350px;
+	padding-right:350px;
+	padding-top:30px;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.aab{
+	padding-top:10px;
+}
+
+#addpatient {
+	margin-bottom: 50px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#1C9FCB;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-family: 'Hind Madurai', sans-serif;
+  margin-top : 62px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#sidebar {
+	margin-left: 200px;
+}
+
+#home-body {
+  margin-top: 0px;
+}
+
+.yf{
+font-family: 'Lato', sans-serif;
+text-align: center;
+}
+#toomuch, #toomuch2, #toomuch3 {
+  max-width: 170px;
+}
